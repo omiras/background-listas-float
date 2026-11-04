@@ -1,12 +1,68 @@
-body { font-family: Arial, Helvetica, sans-serif; background-color: lightgrey; font-size: 14px; }
-ul { padding: 0; }
-ul li { display: inline-block; }
-.lista1 li { background-color: #5ACE77; padding: 2px 8px; border: 2px dashed #954A95; color: #954A95; }
-.lista2 { text-align: center; }
-.lista2 li { padding: 4px; background-color: white; box-shadow: 3px 3px 5px grey; border: 1px solid transparent; }
-.lista2 li:hover { background-color: lightgray; border-color: black; cursor: pointer; }
-.lista3 { border: 1px solid grey; display: inline-block; padding: 8px; }
-.lista3 li { display: block; background-color: white; border: 1px solid black; text-align: center; margin: 6px 0; padding: 4px; }
-.lista4 { text-align: center; }
-.lista4 li { background-color: white; color: #3366CC; padding: 6px 24px; font-weight: bold; }
-.lista4 .blue { background-color: #3366CC; color: white; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.lista1 li {
+    background-color: #5ACE77;
+    padding: 2px 8px;
+    border: 2px dashed #954A95;
+    color: #954A95;
+}
+
+.lista2 {
+    text-align: center;
+}
+
+.lista2 li {
+    padding: 4px;
+    background-color: white;
+    box-shadow: 3px 3px 5px grey;
+    border: 1px solid transparent;
+}
+
+.lista2 li:hover {
+    background-color: lightgray;
+    border-color: black;
+    cursor: pointer;
+}
+
+.lista3 {
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 8px;
+}
+
+.lista3 li {
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: 6px 0;
+    padding: 4px;
+}
+
+.lista4 {
+    text-align: center;
+}
+
+.lista4 li {
+    background-color: white;
+    color: #3366CC;
+    padding: 6px 24px;
+    font-weight: bold;
+}
+
+.lista4 .blue {
+    background-color: #3366CC;
+    color: white;
+}
