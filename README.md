@@ -2,11 +2,21 @@
 
 Reproduce los diseños de referencia conservando los textos de las plantillas. Crea y enlaza una hoja **styles.css** para cada ejercicio.
 
+## Cómo asociar cada hoja de estilos
+
+Crea un archivo **styles.css** en la misma carpeta que el HTML de cada ejercicio. Añade esta línea dentro de `<head>` para enlazarlo:
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+Cada HTML utilizará el **styles.css** de su propia carpeta.
+
 ## Ejercicio 0. Diseño de listas
 
 Archivo: [listas-1.html](0-listas-inline-block/listas-1.html).
 
-Practica la distribución de listas con `inline-block` siguiendo la captura. En la lista 2, los elementos deben cambiar de fondo y mostrar un borde negro al pasar el ratón.
+Practica la distribución de listas con `inline-block` siguiendo la captura.
 
 ![Diseño esperado de las listas](0-listas-inline-block/resultado-esperado.png)
 
@@ -14,7 +24,7 @@ Practica la distribución de listas con `inline-block` siguiendo la captura. En 
 
 | Elemento | Color |
 | --- | --- |
-| Fondo de página y fondo de lista 2 al pasar el ratón | `#d3d3d3` |
+| Fondo de página | `#d3d3d3` |
 | Fondo de lista 1 | `#5ace77` |
 | Texto y borde de lista 1 | `#954a95` |
 | Fondos blancos y texto sobre azul | `#ffffff` |
@@ -27,6 +37,8 @@ Practica la distribución de listas con `inline-block` siguiendo la captura. En 
 Archivo: [sonetos-lope.html](1-background-images/sonetos-lope.html).
 
 Organiza los cuatro sonetos y reproduce sus fondos mediante CSS. Encontrarás las imágenes necesarias en la carpeta **fondos**.
+
+El fondo de los fuegos es especialmente difícil. Como pista, puedes buscar en Internet o preguntar a una IA: **«Cómo poner dos imágenes de fondo a la vez en un contenedor»**.
 
 ![Diseño esperado de los sonetos](1-background-images/resultado-esperado.png)
 
@@ -55,9 +67,7 @@ Organiza la información de los museos siguiendo la captura. Utiliza `float` par
 | --- | --- |
 | Fondo de página | `#4db1aa` |
 | Título y enlaces | `#004d48` |
-| Naranja de bordes y enlaces al pasar el ratón | `#ed4f00` |
+| Naranja de bordes | `#ed4f00` |
 | Amarillo anaranjado de bordes y rellenos | `#ffad2e` |
 | Fondo de secciones | `#ffffff` |
 | Texto general | `#000000` |
-
-Capturas de referencia aportadas por [Berta Blanc](https://github.com/bertablancpastor).
